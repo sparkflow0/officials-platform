@@ -26,8 +26,6 @@ import {
 } from 'lucide-react';
 
 // --- SUPABASE CONFIG ---
-// Initialize Supabase client
-// Make sure to set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in your .env file
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const supabase = (supabaseUrl && supabaseAnonKey) 
